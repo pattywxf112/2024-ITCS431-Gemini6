@@ -15,6 +15,10 @@ public class Vehicle {
         this.baseCost = baseCost;
     }
 
+    public double getBaseCost() {
+        return baseCost;
+    }
+
     public void displayVehicleInfo() {
         System.out.println("Vehicle Serial Number: " + serialNumber);
         System.out.println("Name: " + name);
