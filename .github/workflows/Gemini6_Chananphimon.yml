@@ -1,0 +1,25 @@
+name: Java CI
+on:
+  push:
+    branches:
+      - Chananphimon
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 1
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+    - name: Compile Java
+      run: |
+        ls  # First list contents to see directory structure
+        javac -d . *.java
+    - name: Run Main Class
+      run: |
+        java -cp . Main
