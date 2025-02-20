@@ -10,7 +10,7 @@ name: Java CI
 on:
   push:
     branches:
-      - Sakhunich
+      ['Sakhunich']
 
 jobs:
   build:
