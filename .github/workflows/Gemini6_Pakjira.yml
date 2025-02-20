@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - Pakjira
+      Pakjira
 
 jobs:
   build:
