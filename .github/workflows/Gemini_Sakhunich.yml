@@ -2,7 +2,7 @@ name: Java CI
 on:
   push:
     branches: ["Sakhunich"]
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
