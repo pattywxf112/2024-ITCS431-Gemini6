@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - [Your Branch]
+      - Napatara
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v1
       with:
-        java-version: '11' # You can change this to the version you want
+        java-version: '17' # You can change this to the version you want
 
     - name: Compile Java
       run: |
