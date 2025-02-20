@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      Pakjira
+      - Pakjira
 
 jobs:
   build:
@@ -13,17 +13,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
       with:
-        ref: ${{ github.event.pull_request.head.ref }}
+        ref: ${{ github.ref }}
         fetch-depth: ${{ env.PR_FETCH_DEPTH }}
 
     - name: Set up JDK
       uses: actions/setup-java@v1
       with:
-        java-version: '17.0.8.1' # You can change this to the version you want
+        java-version: '17.0.8.1' # Change this to the version you want
 
     - name: Compile Java
       run: |
         cd Pakjira/HolidayTravelVehicles 
         javac -d . *.java
-      # Compile java file from directory
-      
+      # Compile Java files from directory
