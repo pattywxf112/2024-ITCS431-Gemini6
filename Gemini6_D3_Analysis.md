@@ -169,7 +169,20 @@
  
 
 # Activity Diagram
+# Create science plan
 
+# Test a science plan
+
+
+# Submit a Science plan  
+![pin act](https://github.com/user-attachments/assets/f6339404-9dba-452b-869c-3d9e48a5b974)
+
+
+# Create observing program
+
+
+# Validate an Observing Program
+![patty ac](https://github.com/user-attachments/assets/9dbd458b-5ea9-4058-9772-33745f62169b)
 
 # Class Diagram 
 ![Gemini6 Class Diagram-Copy of Page-1 drawio](https://github.com/user-attachments/assets/ccf3e2ed-ba1d-4463-8abf-08501f29f674)
@@ -182,9 +195,11 @@
 
 
 # Submit a Science plan  
+![pinsequence](https://github.com/user-attachments/assets/c862df01-409a-4871-a8ee-6ac8acbfea6f)
 
 
 # Create observing program
 
 
 # Validate an Observing Program
+![patty seq](https://github.com/user-attachments/assets/f9288760-53a8-42ee-8936-f59fc32bea29)
