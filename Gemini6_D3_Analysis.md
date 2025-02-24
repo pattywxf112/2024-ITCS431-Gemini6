@@ -171,6 +171,20 @@
 # Activity Diagram
 
 
+# Class Diagram 
+
 
 # Sequence Diagram
+# create science plan
+![D3_SE_proj-final drawio](https://github.com/user-attachments/assets/58bdffc4-60ff-4aa2-a8b5-8b28cfa4af8b)
 
+# Test a science plan
+
+
+# Submit a Science plan  
+
+
+# Create observing program
+
+
+# Validate an Observing Program
