@@ -168,3 +168,9 @@
 | | A-4: Critical error occurs during validation (e.g., missing data). The system generates a failure report and logs the issue|
  
 
+# Activity Diagram
+
+
+
+# Sequence Diagram
+
