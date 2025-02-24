@@ -192,7 +192,7 @@
 # Sequence Diagram
 
 # create science plan
-![D3_SE_proj-final drawio](https://github.com/user-attachments/assets/58bdffc4-60ff-4aa2-a8b5-8b28cfa4af8b)
+![D3_SE_proj-final drawio creammmm](https://github.com/user-attachments/assets/b9972512-4140-4dfd-bb3b-4777e364aad7)
 
 # Test a science plan
 ![bew sw](https://github.com/user-attachments/assets/38c574a6-08ff-4858-a8f0-e7cb685d2a80)
