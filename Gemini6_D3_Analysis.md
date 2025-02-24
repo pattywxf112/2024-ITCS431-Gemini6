@@ -27,7 +27,7 @@
 | **Normal Flow of Events** | **Description** |
 | :--- | :--- |
 | 1 | Astronomers must log in to access the system. |
-| :--- | If the login fails, the system allows the astronomer to retry the login. |
+|  | S-1 If the login fails, the system allows the astronomer to retry the login. |
 | 2| Astronomers enter science plan details including plan name, ID, and observation mode. |
 | 3 | Astronomers set target selection (choose astronomical objects). |
 | 4 | Astronomers set observation time. |
@@ -173,28 +173,29 @@
 ![D3_SE_proj-activity drawio cream](https://github.com/user-attachments/assets/f10d458a-2759-455e-b614-f8d75315eeeb)
 
 # Test a science plan
-
+![bew act](https://github.com/user-attachments/assets/15d5b124-6618-491c-b742-a8e09a13ca35)
 
 # Submit a Science plan  
 ![pin act](https://github.com/user-attachments/assets/f6339404-9dba-452b-869c-3d9e48a5b974)
 
-
 # Create observing program
 <img width="341" alt="bam act" src="https://github.com/user-attachments/assets/25f7a305-ad27-40a0-8dc3-abde7e180131" />
-
 
 # Validate an Observing Program
 ![patty ac](https://github.com/user-attachments/assets/9dbd458b-5ea9-4058-9772-33745f62169b)
 
+
 # Class Diagram 
 ![Gemini6 Class Diagram-Copy of Page-1 drawio](https://github.com/user-attachments/assets/ccf3e2ed-ba1d-4463-8abf-08501f29f674)
 
+
 # Sequence Diagram
+
 # create science plan
 ![D3_SE_proj-final drawio](https://github.com/user-attachments/assets/58bdffc4-60ff-4aa2-a8b5-8b28cfa4af8b)
 
 # Test a science plan
-![bew sw](https://github.com/user-attachments/assets/c7ff59c3-1f13-44a6-98da-0a38f1dad3c6)
+![bew sw](https://github.com/user-attachments/assets/38c574a6-08ff-4858-a8f0-e7cb685d2a80)
 
 
 # Submit a Science plan  
@@ -202,7 +203,6 @@
 
 
 # Create observing program
-
 <img width="574" alt="bam se" src="https://github.com/user-attachments/assets/f9f4ca15-4f40-4b9c-9243-3ac5b03c92de" />
 
 # Validate an Observing Program
