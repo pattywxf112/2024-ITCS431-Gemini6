@@ -172,8 +172,7 @@
 
 
 # Class Diagram 
-![Gemini6 Class Diagram-Copy of Page-1 drawio](https://github.com/user-attachments/assets/5733b8c4-8ff3-42f0-ade6-41ae2965e142)
-
+![Gemini6 Class Diagram-Copy of Page-1 drawio](https://github.com/user-attachments/assets/ccf3e2ed-ba1d-4463-8abf-08501f29f674)
 
 # Sequence Diagram
 # create science plan
