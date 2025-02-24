@@ -170,6 +170,7 @@
 
 # Activity Diagram
 # Create science plan
+![D3_SE_proj-activity drawio cream](https://github.com/user-attachments/assets/f10d458a-2759-455e-b614-f8d75315eeeb)
 
 # Test a science plan
 
@@ -179,6 +180,7 @@
 
 
 # Create observing program
+<img width="341" alt="bam act" src="https://github.com/user-attachments/assets/25f7a305-ad27-40a0-8dc3-abde7e180131" />
 
 
 # Validate an Observing Program
@@ -192,6 +194,7 @@
 ![D3_SE_proj-final drawio](https://github.com/user-attachments/assets/58bdffc4-60ff-4aa2-a8b5-8b28cfa4af8b)
 
 # Test a science plan
+![bew sw](https://github.com/user-attachments/assets/c7ff59c3-1f13-44a6-98da-0a38f1dad3c6)
 
 
 # Submit a Science plan  
@@ -200,6 +203,7 @@
 
 # Create observing program
 
+<img width="574" alt="bam se" src="https://github.com/user-attachments/assets/f9f4ca15-4f40-4b9c-9243-3ac5b03c92de" />
 
 # Validate an Observing Program
 ![patty seq](https://github.com/user-attachments/assets/f9288760-53a8-42ee-8936-f59fc32bea29)
