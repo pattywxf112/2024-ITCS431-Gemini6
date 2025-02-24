@@ -87,7 +87,7 @@
 |**Association:** | Astronomer |
 | **Include:** | - | 
 | **Extend:** | - |
-| **Generalization:** | Science Planning Process |
+| **Generalization:** | - |
 
 | **Normal Flow of Events** | **Description** |
 | :--- | :--- |
