@@ -172,6 +172,7 @@
 
 
 # Class Diagram 
+![Gemini6 Class Diagram-Copy of Page-1 drawio](https://github.com/user-attachments/assets/5733b8c4-8ff3-42f0-ade6-41ae2965e142)
 
 
 # Sequence Diagram
