@@ -195,7 +195,7 @@
 ![D3_SE_proj-final drawio creammmm](https://github.com/user-attachments/assets/b9972512-4140-4dfd-bb3b-4777e364aad7)
 
 # Test a science plan
-![bew sw](https://github.com/user-attachments/assets/38c574a6-08ff-4858-a8f0-e7cb685d2a80)
+![TESTSCIPLAN](https://github.com/user-attachments/assets/6c4b7e42-458c-4547-b264-b9a931ebc0d2)
 
 
 # Submit a Science plan  
