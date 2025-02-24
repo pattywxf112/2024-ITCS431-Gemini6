@@ -73,7 +73,10 @@
 
 | **Use Case Name** | Submit a Science Plan |
 | :--- | :--- |
+| **ID** | UC-003 |
+| **Importance Level** | High |
 | **Primary Actor** | Astronomer |
+| **Use Case Type** | Detail, Essential |
 | **Stakeholders and Interests** | **Astronomer** – Wants to successfully submit a science plan for execution, ensuring it aligns with observation requirements and constraints. |
 | | **Science Observer** – Needs a validated and properly formatted science plan to transform into an observing program. 
 | | **Telescope Operator** – Ensures the science plan can be executed within system constraints. |
@@ -95,7 +98,73 @@
 | **SubFlows** | S-1: Astronomer Cancels Submission 1. The astronomer selects a science plan but decides not to submit it.  2. The astronomer either saves it for later or exits the submission process. |
 | **Alternate/Exceptional Flows** | S-1, 4a1: The astronomer reviews the science plan after canceling the submission and decides to make adjustments before saving it. |
 
+# Create Observing Program
+
+| **Use Case Name** | Create observing program |
+| :--- | :--- |
+| **ID** | UC-004 |
+| **Importance Level** | High |
+| **Primary Actor** | Science Observer |
+| **Use Case Type** | Detail, Essential |
+| **Stakeholders and Interests** | *Science Observer: Wants to create an observing program after a validated science plan.| 
+| | Astronomer: Provides the approved science plan.|
+| **Brief Description** |This use case describes how a Science Observer creates an observing program from an approved science plan.|
+| **Trigger** | The Science Observer initiates the creation of an observing program from an approved science plan.|
+| **Type** | External |
+| **Relationship** | |
+|**Association:** |  Science Observer|
+| **Include:** | - | 
+| **Extend:** | - |
+| **Generalization:** | - |
+
+| **Normal Flow of Events** | **Description** |
+| :--- | :--- |
+| 1 | The Science Observer reviews available Science Plans in the system. |
+| 2 |The Science Observer selects a validated science plan. |
+| 3 |The Science Observer converts the science plan into an observing program. |
+| 4 |The Science Observer configures the observing program parameter. |
+| |S-1: Configure Parameter Settings subflow. |
+| 5 |The Science Observer submits the observing Program. |
+| 6 |The Science Observer saves to create observing program |
+| **SubFlows** |S-1 Configure Parameter Settings 1. The Science Observer adjusts telescope and instrument configurations based on star catalog data. 2. The Science Observer ensures all parameters align with the Science Plan requirements.|
+| **Alternate/Exceptional Flows** | S-1, 1a1: Invalid or conflicting parameters ; The Science Observer receives an alert message indicating the error. The Science Observer reviews and corrects the parameter settings before proceeding. |
 
 
+# Validate an Observing Program
 
+| **Use Case Name** | Validate an Observing Program |
+| :--- | :--- |
+| **ID** | UC-005 |
+| **Importance Level** | Medium |
+| **Primary Actor** | Telescope Operator |
+| **Use Case Type** | Detail, Essential |
+| **Stakeholders and Interests** |Telescope Operator - Ensures the observing program is valid and executable without errors.| 
+| | Science Observer - Relies on validation to ensure smooth execution and data quality. |
+| | Astronomer -  Wants confirmation that their submitted observing program is accurate and feasible. |
+| | Administrator - Needs traceability of programs for system integrity and reporting.|
+| **Brief Description** |The Telescope Operator validates an Observing Program to ensure it meets operational requirements and aligns with scientific objectives. This validation ensures the telescope will execute the program smoothly without interruptions or errors.|
+| **Trigger** | The Science Observer submits a new observing program for execution. A Telescope Operator selects an observing program for review.|
+| **Type** | External |
+| **Relationship** | |
+|**Association:** |  Telescope Operator |
+| **Include:** | - | 
+| **Extend:** | - |
+| **Generalization:** | - |
+
+| **Normal Flow of Events** | **Description** |
+| :--- | :--- |
+| 1 | Telescope Operator logs into the system. |
+| 2 | The operator selects an Observing Program|
+| 3 | The system loads the observing program and displays its details.|
+| 4 | The operator performs validation checks.|
+| 5 | The system runs automated verification tests for feasibility.|
+| 6 | If validation passes, the system marks the observing program as "Valid".|
+| 7 | If validation fails, an error report is generated.|
+| 8 | The Telescope Operator decides whether to Modify the observing program or Request corrections from the Science Observer.|
+| **SubFlows** |S-1: Automatic Validation Checks 1.The system automatically verifies instrument settings, observation conditions, and telescope availability. 2. If errors are found, the system flags inconsistencies and suggests corrections. |
+| **Alternate/Exceptional Flows** | A-1: The Observing Program contains an invalid instrument setting. The system highlights the issue and prompts for correction. |
+| | A-2: The Observing Program conflicts with another scheduled observation. The system suggests a reschedule or alternate configuration. |
+| | A-3: The validation fails due to an unavailable telescope resource. The system alerts the operator and suggests an alternative setup.|
+| | A-4: Critical error occurs during validation (e.g., missing data). The system generates a failure report and logs the issue|
+ 
 
